@@ -43,6 +43,13 @@ public class EmpController {
 	{
 		return  "Page Not Found 404";
 	}
+
+
+	@RequestMapping("/{id}")
+	public String HandleErrorAddExtraPerksandChecks(@PathVariable("id") String worngUrl)
+	{
+		return  "Page Not Found 404";
+	}
 	
 	
 
